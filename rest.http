@@ -1,0 +1,11 @@
+### Post method
+POST http://localhost:4000/admin/login
+Content-Type: application/json
+
+{
+"email":"appx@gmail.com",
+"password":"Admin@123"
+}
+
+###Get method for login
+GET http://localhost:4000/admin/login
