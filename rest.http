@@ -1,4 +1,4 @@
-### Post method
+### Post method for admin
 POST http://localhost:4000/admin/login
 Content-Type: application/json
 
@@ -7,5 +7,18 @@ Content-Type: application/json
 "password":"Admin@123"
 }
 
-###Get method for login
+###Get method for admin-login
 GET http://localhost:4000/admin/login
+
+
+### Post method for user
+POST http://localhost:4000/user/login
+Content-Type: application/json
+
+{
+"email":"ganapathyx@gmail.com",
+"password":"User@123"
+}
+
+###Get method for user-login
+GET http://localhost:4000/user/login
