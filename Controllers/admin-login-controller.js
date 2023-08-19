@@ -2,7 +2,8 @@ const createErrors = require("http-errors")
 const Register = require("../Models/admin-login")
 
 module.exports = {
-    createAdminRegistration: (req, res, next) => {
+    createAdminRegistration:
+     (req, res, next) => {
         console.log(req.body);
         const register = new Register({
             email: req.body.email,
