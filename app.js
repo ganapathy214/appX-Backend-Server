@@ -18,6 +18,8 @@ app.use("/admin/login", adminLoginRoute)
 const userLoginRoute = require("./Routers/userLogin")
 app.use("/user/login", userLoginRoute)
 
+const createEventRoute=require("./Routers/createEvent")
+app.use("/user/createEvent",createEventRoute)
 app.listen(4000, () => {
     console.log("I'm from 4000 port");
 })
